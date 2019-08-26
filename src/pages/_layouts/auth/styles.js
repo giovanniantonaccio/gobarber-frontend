@@ -27,10 +27,18 @@ export const Content = styled.div`
       padding: 0 15px;
       color: #fff;
       margin: 0 0 10px;
+      -webkit-transition-delay: 9999s;
 
       &::placeholder {
         color: rgba(255, 255, 255, 0.8);
       }
+    }
+
+    span {
+      color: #fb6f91;
+      align-self: flex-start;
+      margin: 0 0 10px;
+      font-weight: bold;
     }
 
     button {
