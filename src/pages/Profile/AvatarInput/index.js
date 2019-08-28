@@ -24,7 +24,6 @@ export default function AvatarInput() {
 
   async function handleChange(e) {
     const data = new FormData();
-    console.tron.log(e.target.files[0]);
     data.append('file', e.target.files[0]);
 
     const response = await api.post('files', data);
@@ -40,7 +39,7 @@ export default function AvatarInput() {
       <label htmlFor="avatar">
         <img
           src={
-            preview || 'https://api.adorable.io/avatars/50/abott@adorable.png'
+            preview || 'https://api.adorable.io/avatars/200/abott@adorable.png'
           }
           alt=""
         />
