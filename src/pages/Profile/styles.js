@@ -9,6 +9,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    height: 100%;
 
     input {
       background: rgba(0, 0, 0, 0.1) !important;
