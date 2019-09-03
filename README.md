@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="Icon made by DinosoftLabs" src="https://image.flaticon.com/icons/svg/1801/1801975.svg" height="124" width="124"/>
+    <br>
+    GoBarber Frontend
+</h1>
 
-## Available Scripts
+This is the frontend for [GoBarber](https://github.com/giovanniantonaccio/gobarber) API, created with ReactJS during [Rocketseat Bootcamp](https://rocketseat.com.br/bootcamp) in order to allow barbers to check the appointments of the day. This project use concepts like Redux, Redux Saga and Hooks.
 
-In the project directory, you can run:
+## :rocket: Installation
 
-### `npm start`
+Clone the repository
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+git clone https://github.com/giovanniantonaccio/gobarber-frontend.git
+```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Open a terminal on the repository folder and install the dependencies:
 
-### `npm test`
+```bash
+yarn
+```
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the application in development mode run:
 
-### `npm run build`
+```bash
+yarn start
+```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This application was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Follow the link for further information.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## :books: Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project was developed with the following technologies:
 
-### `npm run eject`
+- [ReactJS](https://reactjs.org/)
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Styled Components](https://www.styled-components.com/)
+- [Polished](https://github.com/styled-components/polished)
+- [Axios](https://github.com/axios/axios)
+- [React Icons](https://www.npmjs.com/package/react-icons)
+- [React Router DOM](https://www.npmjs.com/package/react-router-dom)
+- [Redux](https://redux.js.org/)
+- [Redux Saga](https://github.com/redux-saga/redux-saga)
+- [Immer](https://github.com/immerjs/immer)
+- [Reactotron](https://github.com/infinitered/reactotron)
+- [History](https://github.com/browserstate/history.js/)
+- [Unform](https://github.com/Rocketseat/unform)
+- [react-perfect-scrollbar](https://github.com/OpusCapita/react-perfect-scrollbar)
+- [React-Toastify](https://fkhadra.github.io/react-toastify/)
+- [Babel](https://babeljs.io/)
+- [Webpack](https://webpack.js.org/)
+- [Prettier](https://prettier.io/)
+- [VS Code](https://code.visualstudio.com/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## :memo: License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is under the MIT license. See the [LICENSE](https://github.com/giovanniantonaccio/gobarber-frontend/blob/master/LICENSE) for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Made by Giovanni Antonaccio :wave: [Get in touch!](https://www.linkedin.com/in/giovanniantonaccio/)
